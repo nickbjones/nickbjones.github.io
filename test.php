@@ -1,3 +1,6 @@
+<?php
+  $text = "this page is php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +9,6 @@
   <title>saru</title>
 </head>
 <body>
-  <h1>it works!</h1>
-  <a href="./test.php"></a>
+  <h1><?= $test ?></h1>
 </body>
 </html>
